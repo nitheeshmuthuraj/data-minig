@@ -7,3 +7,4 @@ names_class=["ABOUT","HEARING","GOOUT","FIND","FATHER","DECIDE","DEAF","COP","CA
                 x=table2array(x)
                 dlmwrite('combined.csv',vertcat(table2array(readtable('combined.csv')),x))
             end
+            cd ..
